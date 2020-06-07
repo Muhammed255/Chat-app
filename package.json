@@ -1,0 +1,20 @@
+{
+  "name": "network_project",
+  "version": "1.0.0",
+  "description": "project with node js using socket.io package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Mohamed",
+  "license": "ISC",
+  "dependencies": {
+    "delivery": "0.0.6",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
